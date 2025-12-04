@@ -43,12 +43,13 @@ export default function ProductDetail({
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-2 md:p-4 z-50">
-      <div className="bg-white rounded-2xl shadow-xl w-full max-w-4xl max-h-[95vh] overflow-hidden animate-slideUp">
+      <div className="bg-white rounded-2xl shadow-xl w-full max-w-4xl max-h-[95dvh] overflow-hidden animate-slideUp">
 
         <div className="flex flex-col sm:flex-row justify-between sm:items-center p-4 md:p-6 border-b border-gray-200">
           <div className="flex items-center gap-3">
             <button
               onClick={onClose}
+              
               className="p-2 rounded-full cursor-pointer hover:bg-gray-100 transition"
             >
               <ArrowLeft className="w-6 h-6 text-gray-700" />
@@ -141,4 +142,5 @@ const InfoBox = ({ title, value }: { title: string; value: string }) => (
     <p className="text-gray-700 text-sm md:text-base">{value}</p>
   </div>
 );
+
 
