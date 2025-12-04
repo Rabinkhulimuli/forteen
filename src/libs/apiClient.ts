@@ -101,6 +101,6 @@ const createApiInstance = ({
 
 // Create Axios instances for each API
 export const apiClient = createApiInstance({
-  baseUrl: import.meta.env.VITE_API_URL,
+  baseUrl: import.meta.env.VITE_API_URL||"https://fakestoreapi.com/products",
   apiKey: import.meta.env.VITE_API_KEY,
 });
