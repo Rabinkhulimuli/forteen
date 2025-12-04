@@ -11,7 +11,6 @@
 
 ---
 
-##  Folder Structure
 
  **Clone the repository**
    ```sh
